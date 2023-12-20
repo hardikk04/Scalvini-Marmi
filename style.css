@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  background-color: #212121;
+}
+
+.page1-elem > h1 {
+  font-size: 8vw;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.page2-elem3 > h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  transform: translate(-50%, -50%);
+}
+
+.page2-elem3 > h3::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #c9c2ac;
+  position: absolute;
+  left: 0;
+  bottom: -15%;
+}
