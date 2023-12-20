@@ -40,3 +40,34 @@ html {
   left: 0;
   bottom: -15%;
 }
+
+.page3-heading-elem > h1 {
+  font-size: 6vw;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.page3-left {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1048/dsc00290_copia.1024x0.jpg");
+}
+
+.page3-right-img {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1048/copertina-video-chi-siamo-hp.640x0.jpg");
+}
+
+.page3-btn {
+  height: 2.5vh;
+  overflow: hidden;
+}
+
+.page3-btn > button {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  line-height: 1;
+  font-weight: 500;
+}

@@ -150,3 +150,23 @@ t1.to(
     },
   }
 );
+
+const page3BtnElem = document.querySelector(".page3-btn");
+const page3Btn = document.querySelectorAll(".page3-btn>button");
+page3BtnElem.addEventListener("mouseenter", () => {
+  page3Btn.forEach((button) => {
+    gsap.to(button, {
+      y: -20,
+      ease: "power3.inOut",
+    });
+  });
+});
+
+page3BtnElem.addEventListener("mouseleave", () => {
+  page3Btn.forEach((button) => {
+    gsap.to(button, {
+      y: 0,
+      ease: "power3.inOut",
+    });
+  });
+});
