@@ -170,3 +170,29 @@ page3BtnElem.addEventListener("mouseleave", () => {
     });
   });
 });
+
+t1.from(".page3-heading-elem>h1", {
+  y: 200,
+  //   duration: 1,
+  scrollTrigger: {
+    scroller: ".main",
+    trigger: ".page3-heading-elem>h1",
+    start: "top 80%",
+    end: "top 60%",
+    scrub: 0.1,
+    // markers: true,
+  },
+});
+
+t1.from(".page3-right-dets", {
+  y: 50,
+  opacity: 0,
+  scrollTrigger: {
+    scroller: ".main",
+    trigger: ".page3-right-dets",
+    start: "top 80%",
+    end: "top 60%",
+    scrub: 0.1,
+    // markers: true,
+  },
+});
