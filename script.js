@@ -6,6 +6,7 @@ function loco() {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector(".main"),
     smooth: true,
+    multiplier: 0.5,
   });
   // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
   locoScroll.on("scroll", ScrollTrigger.update);
@@ -133,7 +134,7 @@ t1.from(
 );
 
 t1.to(
-  ".page2-center>.page2-center-elem:nth-child(2)",
+  ".page2-elem3",
 
   {
     height: "100vh",
