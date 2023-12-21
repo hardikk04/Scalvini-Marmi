@@ -97,3 +97,66 @@ html {
   line-height: 1;
   font-weight: 500;
 }
+
+.page5 > .page5-elem {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.page5 > .page5-elem:nth-child(2) {
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1050/img03.288x0.jpg");
+}
+
+.page5 > .page5-elem:nth-child(3) {
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1050/bo3b4214scalvini_scalvini_2014.640x0.jpg");
+}
+
+.page5 > .page5-elem:nth-child(4) {
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1050/apice-scalvini-02.1024x0.jpg");
+}
+
+.page5 > .page5-elem:nth-child(5) {
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1050/o3b0144.640x0.jpeg");
+}
+
+.page5 > .page5-elem:nth-child(6) {
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1050/bapu8830scalvini_2015.1024x0.jpg");
+}
+
+.page5 > .page5-elem:nth-child(7) {
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1050/x2g4301_copia.640x0.jpg");
+}
+
+.page5-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: salmon; */
+  overflow: hidden;
+  height: 15vh;
+}
+
+.page5-text > h1 {
+  font-size: 6vw;
+}
+
+.page6 {
+  border-top: 1px solid #c9c2ac;
+}
+
+.page6-text {
+  height: 18vh;
+  overflow: hidden;
+}
+
+.page6-text > h1 {
+  font-size: 7vw;
+  font-weight: 600;
+}
+
+.page6 h3 {
+  font-weight: 500;
+  font-size: 0.9vw;
+}
