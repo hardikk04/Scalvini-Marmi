@@ -59,12 +59,38 @@ html {
   background-image: url("https://www.scalvinimarmi.it/site/assets/files/1048/copertina-video-chi-siamo-hp.640x0.jpg");
 }
 
+.page4-bg {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.scalvinimarmi.it/site/assets/files/1049/bapu6818maip_b.1418x0.jpg");
+}
+
 .page3-btn {
   height: 2.5vh;
   overflow: hidden;
 }
 
 .page3-btn > button {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.page4-heading > h1 {
+  font-size: 6vw;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.page4-btn {
+  height: 2.5vh;
+  overflow: hidden;
+  /* background-color: salmon; */
+}
+
+.page4-btn > button {
   position: relative;
   text-transform: uppercase;
   font-size: 1.2vw;

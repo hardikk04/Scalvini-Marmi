@@ -196,3 +196,24 @@ t1.from(".page3-right-dets", {
     // markers: true,
   },
 });
+
+const page4BtnElem = document.querySelector(".page4-btn");
+const page4Btn = document.querySelectorAll(".page4-btn>button");
+
+page4BtnElem.addEventListener("mouseenter", () => {
+  page4Btn.forEach((button) => {
+    gsap.to(button, {
+      y: -20,
+      ease: "power3.inOut",
+    });
+  });
+});
+
+page4BtnElem.addEventListener("mouseleave", () => {
+  page4Btn.forEach((button) => {
+    gsap.to(button, {
+      y: 0,
+      ease: "power3.inOut",
+    });
+  });
+});
